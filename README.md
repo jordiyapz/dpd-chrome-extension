@@ -20,7 +20,7 @@ A Chrome Extension to [Digital Paḷi Dictionary](https://github.com/digitalpali
 - Themed to match the branding of original DPD.
 - Revert most changes made by the DPD extension upon deactivation.
 
-\*) Mainly tested on Tipitaka.org
+\*) Mainly tested on [Tipitaka.org](https://tipitaka.org)
 
 ## How to install
 
