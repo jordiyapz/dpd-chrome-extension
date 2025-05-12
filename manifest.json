@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "DPD Dictionary",
-  "description": "Enable focus mode on Chrome's official Extensions and Chrome Web Store documentation.",
+  "description": "A Chrome extension that allows you to access digital Pāḷi dictionary resources from any website.",
   "version": "1.0",
   "icons": {
     "16": "images/dpd-logo_16.png",
