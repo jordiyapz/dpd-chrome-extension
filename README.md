@@ -59,3 +59,4 @@ A Chrome Extension to [Digital Paḷi Dictionary](https://github.com/digitalpali
 ## Further improvements
 
 - Support word lookup from the right panel.
+- Publish to Chrome Store (require payments).
