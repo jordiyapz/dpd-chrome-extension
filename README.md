@@ -21,9 +21,10 @@
 
 1. Go to any pali website (e.g. [tipitaka.org](https://tipitaka.org/romn/#1556))
 2. Navigate to any chapter with pali text.
-3. Turn on the extension by clicking on the icon in the toolbar or activate the extension from extensions menu (puzzle icon). A right side panel will show up.
+3. Turn on the extension by clicking on the icon in the toolbar or activate the extension from extensions menu (puzzle icon). 
    ![Activate extension](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/How-to-3.png)
+   A right side panel will show up.
    ![Right side panel screenshot](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Sidepanel-init.png)
-4. Select a word by highlighting or double clicking on it.
-5. The definition will show up in the panel.
+5. Select a word by highlighting or double clicking on it.
+6. The definition will show up in the panel.
    ![Right side panel result](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Sidepanel-result.png)
