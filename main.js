@@ -1,5 +1,3 @@
-let panel = null;
-
 /**
  * Handle a selected word by looking it up in the dictionary.
  *
@@ -25,17 +23,32 @@ function handleSelectedWord(word) {
 }
 
 function init() {
-  const nodes = document.body.childNodes;
-  const newContentContainer = document.createElement("div");
-  newContentContainer.id = "main-content-32050248";
-  [...nodes]
-    .filter((node) => node.tagName !== "SCRIPT")
-    .forEach((node) => {
-      newContentContainer.appendChild(node);
-    });
+  if (document.getElementById("main-content-32050248") === null) {
+    const newContentContainer = document.createElement("div");
+    const nodes = document.body.childNodes;
+    newContentContainer.id = "main-content-32050248";
+    [...nodes]
+      .filter((node) => node.tagName !== "SCRIPT")
+      .forEach((node) => {
+        newContentContainer.appendChild(node);
+      });
 
-  document.body.appendChild(newContentContainer);
-  addListenersToTextElements();
+    document.body.appendChild(newContentContainer);
+    addListenersToTextElements();
+    chrome.runtime.onMessage.addListener(function (
+      request,
+      sender,
+      sendResponse
+    ) {
+      if (request === "destroy") {
+        panel?.destroy();
+        delete panel;
+        panel = null;
+        sendResponse("done");
+      }
+    });
+  }
+
   panel = panel || new DictionaryPanel();
 }
 

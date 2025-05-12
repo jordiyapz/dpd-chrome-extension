@@ -8,11 +8,12 @@ class DictionaryPanel {
 
     const header = this._createHeader();
 
-    
-    this.textNode = document.createTextNode("Click on a word on the page to see its definition");
+    this.textNode = document.createTextNode(
+      "Click on a word on the page to see its definition"
+    );
     header.appendChild(this.textNode);
     header.style.fontSize = "1.1rem";
-    header.style.textAlign = "center";  
+    header.style.textAlign = "center";
 
     this.content = document.createElement("iframe");
 
@@ -35,7 +36,7 @@ class DictionaryPanel {
   _createHeader() {
     const header = document.createElement("div");
     header.style.padding = "8px";
-    
+
     const brand = document.createElement("div");
     brand.style.display = "flex";
     brand.style["align-items"] = "center";
@@ -55,7 +56,16 @@ class DictionaryPanel {
     brand.appendChild(title);
 
     header.appendChild(brand);
-    
+
     return header;
   }
+
+  destroy() {
+    document.getElementById("dict-panel-25445").remove();
+  }
 }
+
+/**
+ * @type {DictionaryPanel | null}
+ */
+let panel = null;
