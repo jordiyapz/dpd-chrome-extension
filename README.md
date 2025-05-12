@@ -23,6 +23,7 @@ A Chrome Extension to [Digital Paḷi Dictionary](https://github.com/digitalpali
 - Supports double-click and manual selection on a word.
 - Support partial word selection.
 - The original feature of DPD, i.e. the Grammar, Example, Declension, Family Root, etc still works.
+- Themed to match the branding of original DPD.
 - Revert most changes made by the DPD extension upon deactivation.
 
 ## How to install
