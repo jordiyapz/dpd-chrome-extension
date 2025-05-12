@@ -5,7 +5,7 @@ A Chrome Extension to [Digital Paḷi Dictionary](https://github.com/digitalpali
 ## Features
 
 - Access to [Digital Paḷi Dictionary](https://github.com/digitalpalidictionary) directly.
-- Works generally on any website (thanks to additional backend for handling CORS).
+- Works generally\* on any website (thanks to additional backend for handling CORS).
   - Sutta Central ([Preview](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_6.png))
   - Wikipedia ([Preview](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_2.png))
   - Wisdom Lib ([Preview](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_3.png))
@@ -19,6 +19,8 @@ A Chrome Extension to [Digital Paḷi Dictionary](https://github.com/digitalpali
 - The original feature of DPD, i.e. the Grammar, Example, Declension, Family Root, etc still works.
 - Themed to match the branding of original DPD.
 - Revert most changes made by the DPD extension upon deactivation.
+
+\*) Mainly tested on Tipitaka.org
 
 ## How to install
 
