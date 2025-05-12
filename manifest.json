@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "DPD Dictionary",
+  "description": "Enable focus mode on Chrome's official Extensions and Chrome Web Store documentation.",
+  "version": "1.0",
+  "icons": {
+    "32": "images/icon-32.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "32": "images/icon-32.png"
+    }
+  },
+  "permissions": ["activeTab", "scripting"]
+}

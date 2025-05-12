@@ -1,0 +1,54 @@
+/* * {
+  display: none !important;
+}
+
+html,
+body,
+*:has(article),
+article,
+article * {
+  display: revert !important;
+}
+
+[role="navigation"] {
+  display: none !important;
+}
+
+article {
+  margin: auto;
+  max-width: 700px;
+} */
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  /* flex-direction: row; */
+  /* max-width: 100%; */
+}
+#main-content-32050248 {
+  /* max-width: min(80%, calc(100% - 460px)); */
+  /* flex: 1 1 80%; */
+}
+
+#dict-panel-25445 {
+  height: 100vh;
+  /* max-width: max(20%, 460px); */
+  /* flex: 0 1 20%; */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: hsl(198, 100%, 95%);
+  color: hsl(198, 100%, 5%);
+  border: 2px solid hsla(0, 0%, 50%, 0.25);
+  border-radius: 4px 0 0 4px;
+}
+
+#dict-panel-25445 iframe {
+  height: 100vh;
+  width: 100%;
+  border: none;
+}
