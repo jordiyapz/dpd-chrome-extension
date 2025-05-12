@@ -1,5 +1,7 @@
 # dpd-chrome-extension
 
+A Chrome Extension to [Digital Paḷi Dictionary](https://github.com/digitalpalidictionary) (See issue [#122](https://github.com/digitalpalidictionary/dpd-db/issues/122))
+
 ## How to install
 
 1. Download this [Zip file](https://github.com/jordiyapz/dpd-chrome-extension/releases/download/v1.0-beta/dpd-chrome.zip)
