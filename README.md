@@ -6,18 +6,12 @@ A Chrome Extension to [Digital Paḷi Dictionary](https://github.com/digitalpali
 
 - Access to [Digital Paḷi Dictionary](https://github.com/digitalpalidictionary) directly.
 - Works generally on any website (thanks to additional backend for handling CORS).
-  - Sutta Central
-    ![Screenshot_6](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_6.png)
-  - Wikipedia
-    ![Screenshot_2](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_2.png)
-  - Wisdom Lib
-    ![Screenshot_3](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_3.png)
-  - Buddhanet
-    ![Screenshot_4](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_4.png)
-  - Facebook
-    ![Screenshot_5](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_5.png)
-  - Yes, even on the [Digital Paḷi Dictionary](https://github.com/digitalpalidictionary) website itself.
-    ![Screenshot_1](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_1.png)
+  - Sutta Central ([Preview](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_6.png))
+  - Wikipedia ([Preview](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_2.png))
+  - Wisdom Lib ([Preview](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_3.png))
+  - Buddhanet ([Preview](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_4.png))
+  - Facebook ([Preview](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_5.png))
+  - Yes, even on the website itself. ([Preview](https://github.com/jordiyapz/dpd-chrome-extension/blob/main/docs/Screenshot_1.png))
 - Activate and deactivate mode of the extension per Tab.
 - Single word selection (ignores multiple words selection).
 - Supports double-click and manual selection on a word.
