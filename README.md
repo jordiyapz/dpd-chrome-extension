@@ -1,6 +1,10 @@
 # dpd-chrome-extension
 
-A Chrome Extension to [Digital Paḷi Dictionary](https://github.com/digitalpalidictionary) (See issue [#122](https://github.com/digitalpalidictionary/dpd-db/issues/122))
+A Chrome Extension to [Digital Paḷi Dictionary](https://github.com/digitalpalidictionary) 
+
+Check it out: [Chrome extension](https://chromewebstore.google.com/detail/bbnpmiolklhoffmknahmpeedncncenlg?utm_source=item-share-cb)
+
+Background story: See issue [#122](https://github.com/digitalpalidictionary/dpd-db/issues/122)
 
 ## Features
 
